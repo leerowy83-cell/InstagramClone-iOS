@@ -1,18 +1,22 @@
 # Xcode
 .DS_Store
 *.xcodeproj
-*.xcworkspace
-*.playground
 xcuserdata/
 DerivedData/
-build/
+*.app
+*.app.dSYM
+*.appex
+*.octest
+*.one
+*.xctest
+*.xcworkspace
 
 # Swift Package Manager
 .build/
+Package.resolved
 
 # CocoaPods
 Pods/
-*.xcconfig
 
 # Carthage
 Carthage/
@@ -21,11 +25,6 @@ Carthage/
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/
-fastlane/test_output/
 
-# Misc
-.swiftpm/
-.vscode/
-
-# Personal
-.secret/
+# Other
+bin/
