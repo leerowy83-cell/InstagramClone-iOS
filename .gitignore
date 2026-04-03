@@ -1,0 +1,25 @@
+# Xcode
+.DS_Store
+*.xcodeproj
+*.xcworkspace
+build/
+DerivedData/
+*.app
+*.ipa
+*.dSYM.zip
+Pods/
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+*.xcconfig
+
+# React Native / Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# macOS
+.DS_Store
