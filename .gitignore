@@ -1,30 +1,15 @@
 # Xcode
 .DS_Store
-*.xcodeproj
-xcuserdata/
+*.xcodeproj/
+*.xcworkspace/
+*.playground/
+
+# Build products
+build/
 DerivedData/
-*.app
-*.app.dSYM
-*.appex
-*.octest
-*.one
-*.xctest
-*.xcworkspace
 
-# Swift Package Manager
-.build/
-Package.resolved
-
-# CocoaPods
+# Dependencies
 Pods/
 
-# Carthage
-Carthage/
-
-# fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/
-
-# Other
-bin/
+# Miscellaneous
+Carthage/Build/
