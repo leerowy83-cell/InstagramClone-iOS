@@ -2,12 +2,10 @@
 .DS_Store
 *.xcodeproj
 *.xcworkspace
-build/
+*.playground
+xcuserdata/
 DerivedData/
-*.app
-*.ipa
-*.dSYM.zip
-Pods/
+build/
 
 # Swift Package Manager
 .build/
@@ -16,10 +14,18 @@ Pods/
 Pods/
 *.xcconfig
 
-# React Native / Node
-node_modules/
-package-lock.json
-yarn.lock
+# Carthage
+Carthage/
 
-# macOS
-.DS_Store
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Misc
+.swiftpm/
+.vscode/
+
+# Personal
+.secret/
