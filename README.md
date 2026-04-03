@@ -1,3 +1,3 @@
 # InstagramClone-iOS
 
-A native iOS Instagram Clone application built with Swift.
+A nascent Instagram clone for iOS, built with Swift and SwiftUI.
