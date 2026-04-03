@@ -14,9 +14,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
-        // Release any resources associated with this scene that can be re-created the next time the scene connects.
-        // The, as well as its associated `UIWindow` property, will be nil.
-        // of creating a new scene.
+        // Release any resources associated with this scene that can be re-created the next time the scene is activated.
+        // The information not retained by the scene since it was disconnected,
+        // (sometimes called 'full disconnect') may be re-created at a later time.
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
@@ -35,8 +35,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidEnterBackground(_ scene: UIScene) {
-        // Called after the scene transitions to a background state.
+        // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state in case it is terminated later.
     }
+
+
 }
